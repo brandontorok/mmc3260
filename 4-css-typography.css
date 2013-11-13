@@ -1,0 +1,52 @@
+body {
+	font-family: Helvetica, sans-serif, serif;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+article {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+h1 {
+	color: #50a2ff;
+	font-size: 40px;
+}
+
+h2 {
+	color: #32ec74;
+	font-size: 30px;
+}
+
+p {
+	font-family: sans-serif;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	border: 1px solid #50a2ff;
+	background: #a7a7a7;
+}
+
+@media screen and (max-width: 400px) {
+	
+	body {
+		width: 100%		
+	}
+	
+	article {
+		width: 90%;
+		margin: 0 5% 0 5%;
+	}
+	
+	h1,h2 {
+		text-align: center;
+	}
+ /* ---Color of border changed to red to show change when screen size is smaller--- */	
+	p {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border: 1px solid red;
+		background: #a7a7a7;
+	}
+}
